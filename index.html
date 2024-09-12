@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logis Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <input type="checkbox" id="check">
+        <div class="logo">
+            <h2>Logis</h2>
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li class="dropDown"><a href="#dropdown">Drop Down<i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="dropLinks">
+                        <li><a href="#">Drop Down 1</a></li>
+                        <li class="deepDropDown"><a href="#">Deep Drop Down<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="deepDropLinks">
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Drop Down 2</a></li>
+                        <li><a href="#">Drop Down 3</a></li>
+                        <li><a href="#">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="quote"><a href="#quote" style="color:white;">Get a Quote</a></li>
+            </ul>
+        </div>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+
+    <header>
+
+        <section class="heroSection" id="home">
+            <div class="jumbotron">
+                <h1>Your Lightning Fast Delivery Partner!</h1>
+                <p>Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio
+                    nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam
+                    occaecati odio est possimus vel reprehenderit</p>
+                <form id="new-task-form">
+                    <input type="text" name="new-task-input" id="new-task-input" placeholder="ZIP Code or City" />
+                    <input type="submit" id="new-task-submit" value="Search" />
+                </form>
+                <div class="numbers">
+                    <div class="divisions">
+                        <h3>232</h3>
+                        <i class="fa-solid fa-dash"></i>
+                        <p>Clients</p>
+                    </div>
+                    <div class="divisions">
+                        <h3>521</h3>
+                        <i class="fa-solid fa-dash"></i>
+                        <p>Projects</p>
+                    </div>
+                    <div class="divisions">
+                        <h3>1453</h3>
+                        <i class="fa-solid fa-dash"></i>
+                        <p>Support</p>
+                    </div>
+                    <div class="divisions">
+                        <h3>32</h3>
+                        <i class="fa-solid fa-dash"></i>
+                        <p>Workers</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="headImage">
+                <img src="./images/hero-img.svg" alt="ErrorHeadImage">
+            </figure>
+        </section>
+    </header>
+
+    <main>
+        <section class="learnMore">
+            <div class="learnMoreContainer">
+                <div class="trolley">
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-flatbed"></i>
+                    </div>
+                    <div class="text">
+                        <h4 class="trolleyh4">Lorem Ipsum</h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                            cupiditate non provident</p>
+                        <a class="trolleyLearn" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="truck">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="text">
+                        <h4 class="truckh4">Dolor Sitema</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat
+                            tarad limino ata</p>
+                        <a class="truckLearn" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="drop">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck-ramp-box"></i>
+                    </div>
+                    <div class="text">
+                        <h4 class="droph4">Sed Ut Perspiciatis</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur</p>
+                        <a class="dropLearn" href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="aboutText">
+                <div class="aboutHeadText">
+                    <h4>About Us</h4>
+                    <p>Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit
+                        quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt
+                        reiciendis veritatis asperiores placeat.</p>
+                </div>
+                <div class="aboutSubText">
+                    <div class="team">
+                        <div class="teamIcon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <div class="teamText">
+                            <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                        </div>
+                    </div>
+                    <div class="fourWayRoad">
+                        <div class="fourWayRoadIcon">
+                            <i class="fa-solid fa-compress"></i>
+                        </div>
+                        <div class="fourWayRoadText">
+                            <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                            <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hotspot">
+                        <div class="hotspotIcon">
+                            <i class="fa-solid fa-compress"></i>
+                            <!-- <i class="fa-solid fa-signal-stream"></i> -->
+                        </div>
+                        <div class="hotspotText">
+                            <h5>Voluptatem et qui exercitationem</h5>
+                            <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figure class="aboutImage">
+                <img src="./images/about.jpg" alt="ErrorAboutImage">
+            </figure>
+        </section>
+
+        <section class="services" id="services">
+            <div class="servicesHeading">
+                <h3>OUR SERVICES</h3>
+            </div>
+            <div class="cardContainer">
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/storage-service.jpg" alt="ErrorStorageImg">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>STORAGE</h6>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam
+                            repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/logistics-service.jpg" alt="ErrorLogisticsImg">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>LOGISTICS</h6>
+                        <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt
+                            molestiae dolor ipsam ducimus occaecati nisi</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/cargo-service.jpg" alt="ErrorCargoImg">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>CARGO</h6>
+                        <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque
+                            oluptatem aut et molestiae ut et nihil</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/trucking-service.jpg" alt="ErrorTruckingService">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>TRUCKING</h6>
+                        <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque
+                            oluptatem aut et molestiae ut et nihil</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/packaging-service.jpg" alt="ErrorPackingImg">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>PACKAGING</h6>
+                        <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur
+                            maiores beatae consequatur magni voluptates</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/warehousing-service.jpg" alt="ErrorWarehousingImg">
+                    </figure>
+                    <div class="cardBody">
+                        <h6>WAREHOUSING</h6>
+                        <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi
+                            quisquam aut nostrum unde et qui est non quo nulla</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callToAction">
+            <div class="callTA">
+                <h2>Call To Action</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <button><a href="#">Call To Action</a></button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="boxContainer">
+                <div class="leftFeat">
+                    <figure class="imageFeat">
+                        <img src="./images/features-1.jpg" alt="ErrorFeature1">
+                    </figure>
+                    <div class="featText">
+                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</li>
+                            <li><i class="fa-solid fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate
+                                velit.</li>
+                            <li><i class="fa-solid fa-check"></i>Ullam est qui quos consequatur eos accusamus.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rightFeat">
+                    <figure class="imageFeat">
+                        <img src="./images/features-2.jpg" alt="ErrorFeature2">
+                    </figure>
+                    <div class="featText">
+                        <h3>Corporis temporibus maiores provident</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <p class="featMainText">
+                            <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="leftFeat">
+                    <figure class="imageFeat">
+                        <img src="./images/features-3.jpg" alt="ErrorFeature1">
+                    </figure>
+                    <div class="featText">
+                        <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
+                        <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe
+                            odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</li>
+                            <li><i class="fa-solid fa-check"></i>Duis aute irure dolor in reprehenderit in voluptate
+                                velit.</li>
+                            <li><i class="fa-solid fa-check"></i>Facilis ut et voluptatem aperiam. Autem soluta ad
+                                fugiat.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rightFeat">
+                    <figure class="imageFeat">
+                        <img src="./images/features-4.jpg" alt="ErrorFeature2">
+                    </figure>
+                    <div class="featText">
+                        <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <p class="featMainText">
+                            <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <div class="pricingHeading">
+                <h3>PRICING</h3>
+            </div>
+            <div class="priceCardContainer">
+                <div class="free">
+                    <div class="cardHeader">
+                        <h5>Free Plan</h5>
+                        <h4>$0 <span>/ month</span></h4>
+                    </div>
+                    <div class="cardBody">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                            <span>
+                                <li><i class="fa-solid fa-x"></i>Pharetra massa massa ultricies</li>
+                            </span>
+                            <span>
+                                <li><i class="fa-solid fa-x"></i>Massa ultricies mi quis hendrerit</li>
+                            </span>
+                        </ul>
+                        <button><a href="#">Buy Now</a></button>
+                    </div>
+                </div>
+                <div class="business">
+                    <div class="cardHeader">
+                        <h5>Business Plan</h5>
+                        <h4>$29 <span>/ month</span></h4>
+                    </div>
+                    <div class="cardBody">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                            <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                            <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <span><button><a href="#">Buy Now</a></button></span>
+                    </div>
+                </div>
+                <div class="developer">
+                    <div class="cardHeader">
+                        <h5>Developer Plan</h5>
+                        <h4>$49 <span>/ month</span></h4>
+                    </div>
+                    <div class="cardBody">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+                            <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                            <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <button><a href="#">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonialbg">
+                <div class="testimonialComments">
+                    <figure>
+                        <input type="radio" name="radioBtn" id="radioBtn1">
+                        <input type="radio" name="radioBtn" id="radioBtn2">
+                        <input type="radio" name="radioBtn" id="radioBtn3">
+                        <input type="radio" name="radioBtn" id="radioBtn4">
+                        <input type="radio" name="radioBtn" id="radioBtn5">
+
+                        <div class="testim" id="first">
+                            <img src="./images/testimonials/testimonials-1.jpg" alt="ErrorTestimonial1">
+                            <h3>Saul Goodman</h3>
+                            <h4>Ceo & Founder</h4>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim
+                                donec
+                                porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget
+                                nibh
+                                et.
+                                Maecen aliquam, risus at semper.<i class="fa-solid fa-quote-right"></i></p>
+                        </div>
+
+                        <div class="testim">
+                            <img src="./images/testimonials/testimonials-2.jpg" alt="ErrorTestimonial2">
+                            <h3>Sara Wilsson</h3>
+                            <h4>Designer</h4>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-left"></i> Export tempor illum tamen malis malis eram quae
+                                irure
+                                esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua
+                                noster fugiat irure amet legam anim culpa.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                        </div>
+
+                        <div class="testim">
+                            <img src="./images/testimonials/testimonials-3.jpg" alt="ErrorTestimonial3">
+                            <h3>Jena Karlis</h3>
+                            <h4>Store Owner</h4>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-left"></i> Enim nisi quem export duis labore cillum quae
+                                magna
+                                enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute
+                                amet
+                                eram fore quis sint minim.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                        </div>
+
+                        <div class="testim">
+                            <img src="./images/testimonials/testimonials-4.jpg" alt="ErrorTestimonial4">
+                            <h3>Matt Brandon</h3>
+                            <h4>Freelancer</h4>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-left"></i> Fugiat enim eram quae cillum dolore dolor amet
+                                nulla
+                                culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim
+                                magna
+                                sunt elit fore quem dolore labore illum veniam.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                        </div>
+
+                        <div class="testim">
+                            <img src="./images/testimonials/testimonials-5.jpg" alt="ErrorTestimonial5">
+                            <h3>John Larson</h3>
+                            <h4>Entrepreneur</h4>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-left"></i> Quis quorum aliqua sint quem legam fore sunt eram
+                                irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum
+                                cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                        </div>
+                    </figure>
+                    <div class="navigationBtn">
+                        <label for="radioBtn1" class="manualBtn"></label>
+                        <label for="radioBtn2" class="manualBtn"></label>
+                        <label for="radioBtn3" class="manualBtn"></label>
+                        <label for="radioBtn4" class="manualBtn"></label>
+                        <label for="radioBtn5" class="manualBtn"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="frequentlyAskedQuestions">
+            <div class="faqHeading">
+                <h3>FREQUENTLY ASKED QUESTIONS</h3>
+            </div>
+            <div class="faq">
+                <ul class="faqList">
+                    <li class="faqQ">
+                        <p><i class="fa-regular fa-circle-question"></i>Non consectetur a erat nam at lectus urna duis?
+                        </p>
+                        <ul class="faqA">
+                            <li>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.</li>
+                        </ul>
+                    </li>
+                    <li class="faqQ">
+                        <p><i class="fa-regular fa-circle-question"></i>Feugiat sclerisque varius morbi enim nunc
+                            faucibus a pellentesque?</p>
+                        <ul class="faqA">
+                            <li>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.</li>
+                        </ul>
+                    </li>
+                    <li class="faqQ">
+                        <p><i class="fa-regular fa-circle-question"></i>Dolor sit amet consectetur adipiscing elit
+                            pellentesque habitant morbi?</p>
+                        <ul class="faqA">
+                            <li>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis</li>
+                        </ul>
+                    </li>
+                    <li class="faqQ">
+                        <p><i class="fa-regular fa-circle-question"></i>Ac odio tempororci dapibus. Aliquam eleifend mi
+                            in nulla?</p>
+                        <ul class="faqA">
+                            <li>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.</li>
+                        </ul>
+                    </li>
+                    <li class="faqQ">
+                        <p><i class="fa-regular fa-circle-question"></i>Tempus quam pellentesque nec nam aliquam sem et
+                            tortor consequat?</p>
+                        <ul class="faqA">
+                            <li>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="miscInfo" id="contact">
+            <div class="logis">
+                <h2>Logis</h2>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+                    darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <div class="smIcons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="links">
+                <div class="usefulLinks">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#termsOfService">Terms of Service</a></li>
+                        <li><a href="#privPolicy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="ourService">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#webDes">Web Design</a></li>
+                        <li><a href="#webDev">Web Development</a></li>
+                        <li><a href="#productManage">Product Management</a></li>
+                        <li><a href="#marketing">Marketing</a></li>
+                        <li><a href="#graphicDes">Graphic Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contactUs">
+                <h3>Contact Us</h3>
+                <p class="address">A108 Adam Street <br> New York, NY 535022 <br> United States</p>
+                <p class="phone"><span>Phone:</span> +1 5589 55488 55</p>
+                <p class="email"><span>Email:</span> info@example.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright <span>Logis</span>. All Rights Reserved</p>
+            <p class="BMade">Designed by BootstrapMade</p>
+        </div>
+    </footer>
+</body>
+<!-- <script src="./script.js"></script> -->
+
+</html>

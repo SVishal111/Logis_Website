@@ -1,0 +1,264 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 40px;
+    padding: 5px 9px 1px;
+    display: none;
+    /* background-color: chartreuse; */
+}
+
+#check {
+    display: none;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fa-angle-down {
+    color: #cad3e0;
+}
+
+
+@media (max-width:1280px) {
+
+    .logo h2 {
+        margin-left: 20px;
+    }
+
+    .navLinks {
+        position: absolute;
+        top: 203px;
+        display: none;
+        width: 100%;
+
+        /* height: 300px; */
+        /* flex-direction: column; */
+        /* background-color: #55c4e9; */
+    }
+
+    .navLinks ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navLinks ul li {
+        background-color: rgb(37, 35, 100);
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+
+    .navLinks ul li a {
+        padding: 15px 25px;
+        width: 100%;
+        /* background-color: khaki; */
+
+    }
+
+    .dropDown:hover .dropLinks {
+        display: block;
+        position: static;
+        /* top: 0px; */
+        /* right: 0; */
+        width: 200px;
+        height: 205px;
+    }
+
+    .deepDropDown:hover .deepDropLinks {
+        height: 210px;
+        top: -60px;
+    }
+
+    /* .dropDown .dropLinks {
+        top: 145px;
+        left: 15px;
+        padding-top: 31px;
+        background-color: darkgreen;
+    }
+
+    .dropDown .dropLinks li{
+        height:48px;
+    }
+
+    .deepDropDown .deepDropLinks {
+        right: 210px;
+    }
+
+    .navLinks ul li:hover {
+        color: white; 
+    }*/
+
+    .quote {
+        border-radius: 0;
+        /* color: rgb(65, 71, 58); */
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks {
+        display: flex;
+    }
+
+}
+
+@media (max-width:992px) {
+    .heroSection {
+        flex-direction: column-reverse;
+        /* padding: 10px 10px; */
+        /* margin: 0 0; */
+    }
+
+    .jumbotron {
+        width: 90%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        margin-left: 0;
+        padding: 10px 30px;
+    }
+
+    .headImage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headImage img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:992px) {
+    .learnMoreContainer {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        /* grid-template-columns: auto auto auto auto; */
+        gap: 2rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about .aboutImage {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .aboutImage img {
+        width: 75%;
+    }
+
+    .about .aboutText {
+        width: 75%;
+    }
+
+    .trolley,
+    .truck,
+    .drop {
+        padding: 5px 30px;
+    }
+
+    .callTA {
+        padding: 100px 10px;
+    }
+
+    .callTA p {
+        width: 95%;
+    }
+
+    .leftFeat {
+        flex-direction: column;
+    }
+
+    .rightFeat {
+        flex-direction: column;
+    }
+
+    .leftFeat .imageFeat {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .leftFeat .featText {
+        margin-right: 0;
+        width: 73%;
+    }
+
+    .rightFeat .imageFeat {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .rightFeat .featText {
+        margin-left: 0;
+        width: 73%;
+    }
+
+    .testim {
+        padding: 50px 60px;
+    }
+
+    .testim p {
+        margin-left: -50px;
+    }
+
+    .miscInfo {
+        flex-direction: column;
+    }
+
+    .logis {
+        width: 90%;
+    }
+
+    .links {
+        width: 90%;
+    }
+
+    .contactUs {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .about .aboutText{
+        margin-left: 80px;
+    }
+    .about .aboutHeadText{
+        width: 95%;
+    }
+    .about .aboutImage{
+        width: 100%;
+    }
+    .about .aboutImage img {
+        width: 93%;
+        padding: 10px;
+    }
+    .cardContainer{
+        padding: 10px 20px;
+    }
+    .priceCardContainer{
+        padding: 10px 20px;
+    }
+    .testim p{
+        margin-left: -20px;
+    }
+    .miscInfo {
+        padding: 40px 40px;
+    }
+    .faqHeading h3{
+        font-size: 28px;
+    }
+}
