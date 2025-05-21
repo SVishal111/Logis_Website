@@ -508,7 +508,7 @@ main {
 .hotspot {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
     padding: 20px 0px;
     /* background-color: yellow; */
 }
@@ -810,7 +810,7 @@ main {
     /* align-items: center; */
     /* justify-content: space-evenly; */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 5rem;
 }
 
@@ -1092,12 +1092,16 @@ main {
 
 .faqQ {
     /* background-color: rgb(241, 135, 135); */
-    padding: 20px 0px;
+    padding: 10px 10px;
     list-style-type: none;
+    margin: 20px 0px;
+    border-radius: 15px;
+    background-color: rgb(254, 245, 245);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255, 200, 200);
 }
 
 .faqQ p {
-    background-color: rgb(254, 245, 245);
     color: rgb(0, 0, 0);
     height: 50px;
     width: 100%;
@@ -1126,6 +1130,7 @@ main {
 
 .faqQ:hover p {
     color: #0d42ff;
+    transition: 0.2s;
 }
 
 .faqQ:hover .faqA {
@@ -1302,6 +1307,7 @@ footer {
     text-align: center;
     line-height: 1.8;
     font-size: 15px;
+    padding-bottom: 10px;
 }
 
 .copyright p {
@@ -1316,4 +1322,10 @@ footer {
 
 .BMade {
     font-size: 15px;
+}
+
+.BMade a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
